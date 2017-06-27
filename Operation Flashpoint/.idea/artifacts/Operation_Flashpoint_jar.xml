@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Operation Flashpoint:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Operation_Flashpoint_jar</output-path>
+    <root id="archive" name="Operation Flashpoint.jar">
+      <element id="module-output" name="Operation Flashpoint" />
+    </root>
+  </artifact>
+</component>

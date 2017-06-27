@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane prefHeight="266.0" prefWidth="389.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.LobbyController">
+    <center>
+        <VBox id="vbox" alignment="CENTER" prefHeight="221.0" prefWidth="389.0" BorderPane.alignment="CENTER">
+            <children>
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Wanneer iedereen ready is, start het spel">
+                    <font>
+                        <Font name="Arial" size="12.0" />
+                    </font>
+                    <VBox.margin>
+                        <Insets bottom="40.0" />
+                    </VBox.margin>
+                </Text>
+                <Button id="btnReady" fx:id="btnReady" mnemonicParsing="false" onAction="#setReady" prefHeight="92.0" prefWidth="152.0" text="Niet Ready" />
+            </children>
+        </VBox>
+    </center>
+    <top>
+        <HBox alignment="TOP_RIGHT" prefHeight="55.0" prefWidth="389.0" BorderPane.alignment="CENTER">
+            <children>
+                <Button fx:id="btnHelpReady" alignment="BOTTOM_CENTER" contentDisplay="BOTTOM" mnemonicParsing="false" onAction="#readyHelp" text="Help" HBox.hgrow="ALWAYS">
+                    <font>
+                        <Font size="23.0" />
+                    </font>
+                </Button>
+            </children>
+        </HBox>
+    </top>
+</BorderPane>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Operation Flashpoint Server:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Operation_Flashpoint_Server_jar</output-path>
+    <root id="archive" name="Operation Flashpoint Server.jar">
+      <element id="module-output" name="Operation Flashpoint Server" />
+    </root>
+  </artifact>
+</component>
